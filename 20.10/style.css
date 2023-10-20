@@ -1,0 +1,62 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0%;
+
+}
+
+.block{
+background: #2B3133;
+width: 100%;
+
+flex-shrink: 0;
+}
+
+.img{
+width: 700px;
+height: 400px;
+flex-shrink: 0;
+border-radius: 10px;
+background: url(img/1.png), lightgray 50% / cover no-repeat;
+margin-left: 100px;
+
+}
+
+.text{
+width: 831px;
+height: 148px;
+flex-shrink: 0;
+color: #FFF;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 100px
+
+
+
+}
+
+.text1{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-align: center;
+padding: 35px;
+
+
+}
+
+h1,h2{
+    margin: 0;
+}
+
+.block2{
+    display: flex;
+}
